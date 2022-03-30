@@ -37,7 +37,7 @@ public class MainPageTests extends BaseTests {
 
         teste2.preencherEmail(email);
         teste2.preencherSenha(senha);
-        //clicar en entrar
+        //clicar em entrar
         teste2.clicarEmEntrar();
         //validar alerta de sucesso
         assertThat(teste2.alertaDeSucesso(), is("Login Realizado."));
